@@ -1,0 +1,10 @@
+x-commands: &commands
+  lint:
+    glob: "*.{js,ts,jsx,tsx}"
+    run: yarn lint
+
+pre-push:
+  commands: *commands
+
+pre-commit:
+  commands: *commands

@@ -7,7 +7,7 @@ import { FullScreenLoading } from '@root/shared/components/fullscreen-loading';
 import { RefreshIcon } from '@root/shared/components/refresh-icon';
 import { Header } from '@root/shared/components/header';
 import { Button } from '@root/shared/components/button';
-import { useEvents, Event } from '../../state';
+import { useEvents, Event } from '../../model';
 import { ListItem, ITEM_HEIGHT } from './list-item';
 import { styles } from './styles';
 import type { EventsListProps } from './types';

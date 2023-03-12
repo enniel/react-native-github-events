@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import SafeAreaView from 'react-native-safe-area-view';
 import { Header } from '@root/shared/components/header';
 import { Avatar } from '@root/shared/components/avatar';
-import { getEventById } from '../../state/selectors';
+import { getEventById } from '../../model/selectors';
 import { Item } from './item';
 import { styles } from './styles';
 import type { EventViewProps } from './types';
